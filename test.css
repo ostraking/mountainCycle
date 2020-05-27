@@ -1,0 +1,61 @@
+:root {
+	--dddd: #808080;/*主にテキスト*/
+	--ddd: #b0b0b0;
+	--dd: #e0e0e0;
+	--d:#FFFFFF;/*主に背景色*/
+}
+
+
+body {
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 1200px;
+  width:80%;
+  background-color: var(--d);
+  color: var(--dddd);
+}
+
+img {
+  max-width: 1200px;
+  width: 100%; }
+
+H1 {
+  background-color: var(--dd);
+  color: var(--dddd);
+  border: none;
+  padding: 20px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+H2 {
+  color: var(--dddd);
+  border-bottom: 4px solid var(--dd);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+H3 {
+  color: var(--dddd);
+  font-weight: 800;
+  font-size:20px;
+}
+
+
+
+a {/*リンクの色*/
+  color: #6666CC; 
+  } 
+a:hover {
+color: #333399;
+text-decoration: underline;
+}
+
+
+
+hr{
+height: 2px;
+border:none;
+background-color: var(--dd);
+}
